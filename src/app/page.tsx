@@ -54,7 +54,7 @@ export default function ProductAudienceForm() {
   return (
     <div className="flex flex-col items-center min-h-screen bg-gray-900 text-white p-6">
       <h1 className="text-3xl font-bold mb-6 text-center">
-        🚀 LinkedIn Post Generator
+        🚀 Post Generator
       </h1>
 
       {/* ==== FORM ==== */}
@@ -109,6 +109,10 @@ export default function ProductAudienceForm() {
           />
         )}
       </div>
+         {/* 👇 Ye line yahan add karo */}
+      <p className="mt-10 text-gray-400 text-sm text-center">
+        Created by <span className="font-semibold text-white">Zohaib Shah</span>
+      </p>
     </div>
   );
 }
