@@ -29,8 +29,8 @@ export default function ProductAudienceForm() {
     setHtmlResponse("");
 
     try {
-      const res = await fetch(
-        "https://zs786zohan.app.n8n.cloud/webhook/chatapp",
+      const res = await fetch("http://localhost:5678/webhook/chatapp",
+        
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
